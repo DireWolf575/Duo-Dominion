@@ -65,6 +65,7 @@ ammoTypes: {
     //visual bullet front and back
     backColor: ac7349
     frontColor: dcd16b
+    }
   metaglass: {
     speed: 3
     damage: 7
@@ -95,5 +96,4 @@ ammoTypes: {
     trailColor: 8da1e3
     backColor: 8da1e3
     frontColor: dcd16b
-   }
-   }
+    }}
