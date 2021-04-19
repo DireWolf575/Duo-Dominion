@@ -1,0 +1,22 @@
+ammo: {
+  //re-define old types of ammo
+  copper: standardCopper
+  graphite: standardDense
+  pyratite: standardIncendiary
+  silicon: standardHoming
+  
+  //define a custom type with different properties
+  lead: {
+    speed: 3.5
+    damage: 13
+    reloadMultiplier: 1.1
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    //visual bullet front and back
+    backColor: ac7349
+    frontColor: dcd16b
+  }
+}
