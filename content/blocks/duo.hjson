@@ -157,7 +157,7 @@ ammoTypes: {
     backColor: ff795e
     frontColor: ff795e
     }
-  phase-fabric
+  phase-fabric: {
     speed: 6
     damage: 31
     reloadMultiplier: 1.5
