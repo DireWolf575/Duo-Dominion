@@ -47,8 +47,8 @@ ammoTypes: {
     status: burning
     makeFire: true
     //visual bullet front and back
-    backColor: ac7349
-    frontColor: dcd16b
+    backColor: Pal.lightishOrange
+    frontColor: Pal.lightOrange
     }
   thorium: {
     speed: 4
@@ -126,7 +126,7 @@ ammoTypes: {
   spore-pod: {
     speed: 3
     damage: 18
-    splashDamage: 25
+    splashDamage: 18
     reloadMultiplier: 0.8
     bulletWidth: 7
     bulletHeight: 9
@@ -134,8 +134,45 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 3
     knockback: 1.5
+    status: burning
     status: sporeSlowed
+    makeFire: true
     //visual bullet front and back
     backColor: ac7349
     frontColor: dcd16b
+    }
+  blast-compound: {
+    speed: 3
+    damage: 15
+    splashDamage: 28
+    reloadMultiplier: 0.7
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 4
+    knockback: 1.5
+    status: blasted
+    //visual bullet front and back
+    backColor: ff795e
+    frontColor: ff795e
+    }
+  phase-fabric
+    speed: 6
+    damage: 31
+    reloadMultiplier: 1.5
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 4
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 30
+    hittable: false
+    homingPower: 0.15
+    homingRange: 75
+    //visual bullet front and back
+    backColor: 	f4ba6e
+    frontColor: 	f4ba6e
     }}
