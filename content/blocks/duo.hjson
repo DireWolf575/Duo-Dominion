@@ -15,8 +15,23 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 2
+    knockback: 0.5
     //visual bullet front and back
     backColor: ac7349
     frontColor: dcd16b
   }
+  sand: {
+    speed: 5
+    damage: 3
+    inaccuracy: 2
+    reloadMultiplier: 0.1
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+    knockback: 0.1
+    //visual bullet front and back
+    backColor: ac7349
+    frontColor: dcd16b
 }
