@@ -1,4 +1,4 @@
-ammo: {
+ammoTypes: {
   //re-define old types of ammo
   copper: standardCopper
   graphite: standardDense
