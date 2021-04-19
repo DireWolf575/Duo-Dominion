@@ -8,7 +8,7 @@ ammoTypes: {
   //define a custom type with different properties
   lead: {
     speed: 3
-    damage: 13
+    damage: 14
     reloadMultiplier: 1.1
     bulletWidth: 7
     bulletHeight: 9
@@ -68,7 +68,7 @@ ammoTypes: {
     }
   metaglass: {
     speed: 3
-    damage: 7
+    damage: 9
     reloadMultiplier: 1
     bulletWidth: 7
     bulletHeight: 9
@@ -82,7 +82,7 @@ ammoTypes: {
     }
   titanium: {
     speed: 6
-    damage: 24
+    damage: 20
     reloadMultiplier: 1.1
     bulletWidth: 7
     bulletHeight: 9
@@ -95,5 +95,47 @@ ammoTypes: {
     //visual bullet front and back
     trailColor: 8da1e3
     backColor: 8da1e3
+    frontColor: dcd16b
+  scrap: {
+    speed: 3
+    damage: 7
+    reloadMultiplier: 1
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    fragBullet: scrapFrag
+    fragBullets: 15
+    trailColor: 777777
+    backColor: 777777
+    frontColor: b8860b
+  plastanium: {
+    speed: 3
+    damage: 24
+    reloadMultiplier: 1
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    fragBullet: fragPlasticFrag
+    fragBullets: 6
+    trailColor: cbd97f
+    backColor: cbd97f
+    frontColor: cbd97f
+    }
+  spore-pod: {
+    speed: 3
+    damage: 18
+    splashDamage: 25
+    reloadMultiplier: 0.8
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+    knockback: 1.5
+    status: sporeSlowed
+    //visual bullet front and back
+    backColor: ac7349
     frontColor: dcd16b
     }}
