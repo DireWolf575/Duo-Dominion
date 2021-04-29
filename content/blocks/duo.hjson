@@ -175,6 +175,6 @@ ammoTypes: {
     homingPower: 0.15
     homingRange: 75
     //visual bullet front and back
-    backColor: 	f4ba6e
-    frontColor: 	f4ba6e
+    backColor: f4ba6e
+    frontColor: f4ba6e
 }}
