@@ -177,4 +177,5 @@ ammoTypes: {
     //visual bullet front and back
     backColor: f4ba6e
     frontColor: f4ba6e
-}}
+}
+}
