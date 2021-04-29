@@ -21,7 +21,7 @@ ammoTypes: {
     frontColor: dcd16b
   }
   sand: {
-    speed: 5
+    speed: 4
     damage: 3
     inaccuracy: 2
     reloadMultiplier: 3
@@ -51,8 +51,8 @@ ammoTypes: {
     frontColor: Pal.lightOrange
     }
   thorium: {
-    speed: 4
-    damage: 29
+    speed: 4.5
+    damage: 31
     reloadMultiplier: 1
     bulletWidth: 7
     bulletHeight: 9
@@ -68,7 +68,7 @@ ammoTypes: {
     }
   metaglass: {
     speed: 3
-    damage: 9
+    damage: 11
     reloadMultiplier: 1
     bulletWidth: 7
     bulletHeight: 9
@@ -82,7 +82,7 @@ ammoTypes: {
     }
   titanium: {
     speed: 6
-    damage: 20
+    damage: 25
     reloadMultiplier: 1.1
     bulletWidth: 7
     bulletHeight: 9
@@ -99,7 +99,7 @@ ammoTypes: {
     }
   scrap: {
     speed: 3
-    damage: 7
+    damage: 9
     reloadMultiplier: 1
     bulletWidth: 7
     bulletHeight: 9
@@ -160,7 +160,7 @@ ammoTypes: {
     frontColor: ff795e
     }
   phase-fabric: {
-    speed: 6
+    speed: 5
     damage: 31
     reloadMultiplier: 1.5
     bulletWidth: 7
